@@ -21,14 +21,15 @@ I use NLP ( Natural Language Processing ) for the sentiment analysis, with the f
 
  The algorithms used are Logistic Regression , Naive Bayes, RandomForest with N-grams(Unigrams and Bigrams), and also Convolutional Neural Network with Keras.
  
- Manual class balancing and oversampling with SMOTE are used to deal with the class balancing. My focus is on getting a model with high Kappa score, high accuracy and high f-1 score. 
+ Manual class balancing and oversampling with SMOTE are used to deal with the class balancing. My focus is on getting a model with high Kappa score, high accuracy and high precision score. 
  
  A Grid Search is performed in order to get the best parameters for the Random Forest model.
  
  ## Result
  
- - With the text-processed imbalanced dataset, the Logistic Regression with Unigrams and the Convolutional Neural Network yield very similar results in terms of evaluation metrics and Kappa score. 
- - After performing class balancing method, I have the best model using Random Forest with Bigrams, with the Kappa Score of 0.79, and evaluation metrics for all classes are above 0.84. My model is very good for imbalanced dataset.
+ - With the text-processed imbalanced dataset, the Logistic Regression with Unigrams and the Convolutional Neural Network yield very similar results in terms of Kappa score. The Logistic Regression have a slightly higher precision score.
+ - The models used on balanced datasets give worse results.
+ - The Grid Search slightly improve Random Forest model but still not good enough.
  - The class balancing does not improve the performance of the Convolutional Neural Network, but it is due to the fact that I have not used hyperparameter for the algorithm.
  
  
