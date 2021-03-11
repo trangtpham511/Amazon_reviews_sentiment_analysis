@@ -2,7 +2,7 @@
 
 ## About the dataset
 
-This dataset is imported from https://nijianmo.github.io/amazon/index.html with 147194 customers' reviews on the gift cards. It contains 147194 review with the overall rating from from 1.0 to 5.0, with 1.0 is highly negative and 5.0 is highly positive. The dataset is hugely imblance with the positive reviews account for 90.6% of total reviews.
+This dataset is imported from https://nijianmo.github.io/amazon/index.html with 147,194 customers' reviews on the gift cards. It contains reviews with the overall rating from from 1.0 to 5.0, with 1.0 is highly negative and 5.0 is highly positive. The dataset is hugely imblance with the positive reviews account for 90.6% of total reviews.
 
 ## Objective 
 
